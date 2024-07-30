@@ -12,6 +12,7 @@ import java.util.List;
 @AllArgsConstructor
 public class VarAddEquipToDaqStationSPPoParam implements Serializable {
     private String szLibFileName;
+    private String szLibName;
     private List<SeqAllParam> seqAllParam;
 
 }

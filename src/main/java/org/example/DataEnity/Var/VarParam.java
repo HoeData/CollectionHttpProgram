@@ -10,7 +10,7 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class VarParam implements Serializable {
+public class    VarParam implements Serializable {
     private VarAddEquipToDaqStationSPPoParam varSPPoParam;
     private List<MapDPPoAndCommPlugin> mapDPPoAndCommPlugin;
     private VarSCommPluginParam varSCommPluginParam;

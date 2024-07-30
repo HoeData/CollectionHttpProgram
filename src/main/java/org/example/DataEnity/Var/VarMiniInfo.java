@@ -13,7 +13,7 @@ public class VarMiniInfo implements Serializable {
     private String szDAQSUUID;
     private String szDAQEName;
     private String szDAQEquipID;
-    private String varLastState;
+    private long varLastState;
     private long llastStateTime;
     private String szDesc;
 }

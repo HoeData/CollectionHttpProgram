@@ -12,5 +12,6 @@ import java.util.List;
 @AllArgsConstructor
 public class VarSCommPluginParam implements Serializable {
     private String szLibFileName;
+    private String szLibName;
     private List<SeqAllParam> seqAllParam;
 }

@@ -9,10 +9,10 @@ import java.io.Serializable;
 @NoArgsConstructor
 @AllArgsConstructor
 public class VarMiniInfoAddQuantityToEquip implements Serializable {
-    private String sRDSign;
+    private int sRDSign;
     private String szDAQSUUID;
     private String szDAQEID;
     private String szDAQQID;
     private String szDAQQName;
-    private String varQFuncType;
+    private int varQFuncType;
 }

@@ -249,8 +249,8 @@ public class CgnForwardSerializedImp implements ForwardSerialized {
         ReadInterval.setSzParamValue("1000");
         ReadInterval.setSzParamName("ReadInterval");
         seqAllParamList.add(ReadInterval);
-        varParam.setVarSPPoParam(new VarAddEquipToDaqStationSPPoParam("RedisReadPlugin", seqAllParamList));
-        varParam.setVarSCommPluginParam(new VarSCommPluginParam("TransComm",new ArrayList<>()));
+        varParam.setVarSPPoParam(new VarAddEquipToDaqStationSPPoParam("RedisReadPlugin","Redis(读取)", seqAllParamList));
+        varParam.setVarSCommPluginParam(new VarSCommPluginParam("TransComm","TransComm(透传通信)",new ArrayList<>()));
         String szPluginObjID = "";
         GetAllPlugObjResult getAllPlugObjResult = (GetAllPlugObjResult)data.stream().filter((res) -> {
             return res.getSzPluginObjName().equals(forwardingConfiguration.getSzStationName());

@@ -17,8 +17,8 @@ public class SeqDParam implements Serializable {
     private double dUpperLimit;
     private double dLowerLimit;
     private double dRatio;
-    private double szDDesc;
-    private double lWriteQuantiy;
+    private String szDDesc;
+    private int  lWriteQuantiy;
     private List<SeqQParam> seqQParam;
     private List<SeqCommParam> seqCommParam;
 
